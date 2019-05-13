@@ -8,7 +8,10 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/WLE_Austria_Logo_%28no_text%29.svg/140px-WLE_Austria_Logo_%28no_text%29.svg.png" alt="" >
         </div>
         <div class="col-9">
-            <div><h1>{{ $user->username }}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{ $user->username }}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
